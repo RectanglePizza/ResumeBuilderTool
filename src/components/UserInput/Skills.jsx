@@ -1,4 +1,4 @@
-import '/home/coder/project/workspace/cvapp_project/src/styles/skills.css'
+// import '/home/coder/project/workspace/cvapp_project/src/styles/skills.css'
 import '../../styles/skills.css'
 import {useState} from 'react'
 function Skills({mySkills,setSkills}){
