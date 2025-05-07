@@ -1,4 +1,5 @@
-import '/home/coder/project/workspace/cvapp_project/src/styles/data_align.css'
+// import '/home/coder/project/workspace/cvapp_project/src/styles/data_align.css'
+import '../../styles/data_align.css'
 import {useState} from 'react'
 function PersonalData({firstName,setfirstName,
                         lastName,setlastName,

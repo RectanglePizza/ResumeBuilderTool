@@ -1,4 +1,5 @@
-import '/home/coder/project/workspace/cvapp_project/src/styles/projects.css'
+// import '/home/coder/project/workspace/cvapp_project/src/styles/projects.css'
+import '../../styles/projects.css'
 import {useState} from 'react'
 function Projects({projects,setProjects}){
     let addProject = () => {

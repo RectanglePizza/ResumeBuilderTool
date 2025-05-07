@@ -1,5 +1,6 @@
 
-import '/home/coder/project/workspace/cvapp_project/src/styles/preview.css'
+// import '/home/coder/project/workspace/cvapp_project/src/styles/preview.css'
+import '../styles/preview.css'
 function Preview({grade10SchoolName,grade10GPA,grade10Year,
                     grade12SchoolName,grade12GPA,grade12Year,
                     graduationName,graduationGrade,graduationYear,

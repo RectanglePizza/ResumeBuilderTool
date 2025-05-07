@@ -1,4 +1,5 @@
-import '/home/coder/project/workspace/cvapp_project/src/styles/data_align.css'
+// import '../src/styles/data_align.css'
+import '../../styles/data_align.css'
 import {useState} from 'react'
 function EducationDetails({grade10SchoolName,setgrade10SchoolName,
                             grade10GPA,setgrade10GPA,

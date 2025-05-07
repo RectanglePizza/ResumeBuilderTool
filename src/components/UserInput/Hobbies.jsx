@@ -1,4 +1,5 @@
-import '/home/coder/project/workspace/cvapp_project/src/styles/hobbies.css'
+// import '/home/coder/project/workspace/cvapp_project/src/styles/hobbies.css'
+import '../../styles/hobbies.css'
 import {useState} from 'react'
 function Hobbies({hobbies,setHobbies}){
     

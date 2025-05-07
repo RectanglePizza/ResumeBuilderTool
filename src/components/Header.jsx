@@ -1,3 +1,6 @@
+// import '/home/coder/project/workspace/cvapp_project/src/styles/header.css'
+// import '/home/coder/project/workspace/cvapp_project/src/styles/caption.css'
+
 import '../styles/header.css'
 import '../styles/caption.css'
 function MainHeading(){

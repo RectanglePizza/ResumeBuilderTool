@@ -23,7 +23,6 @@ main {
     height: calc(100% - 15%);
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    
 }
 .sub_section_main{
     border-right: 1px solid black;

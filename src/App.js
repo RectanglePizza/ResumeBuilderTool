@@ -7,7 +7,7 @@ import Projects from "./components/UserInput/Projects";
 import Skills from "./components/UserInput/Skills";
 import html2pdf from 'html2pdf.js'
 //styles
-import '/home/coder/project/workspace/cvapp_project/src/styles/data.css'
+import './styles/data.css'
 import {useRef, useState} from 'react' 
 function App() {
   // grade 10 states
