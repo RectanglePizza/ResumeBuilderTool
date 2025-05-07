@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+.dataArea {
+    background-color: #E9E7EF;
+    padding-left: 1rem;
+}
+
+.blocks {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(200px,1fr));
+}
+.previewarea{
+    grid-column: 2/4;
+}

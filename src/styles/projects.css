@@ -1,0 +1,33 @@
+body,html{
+    margin:0;
+    padding:0;
+}
+*{
+    box-sizing: border-box;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    max-width: calc(100vw - 75vw);
+    align-items: center;
+}
+.projects h5 {
+    align-self: flex-start;
+}
+.projects div input,textarea {
+    max-width: calc(100vw - 80vw);
+    margin-bottom: 0.3rem;
+    outline:none;
+    padding: 0.2rem;
+}
+.projects .project_content{
+    display: flex;
+    flex-direction: column;
+}
+.projects button {
+    max-width: 2rem;
+}

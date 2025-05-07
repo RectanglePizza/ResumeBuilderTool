@@ -1,0 +1,99 @@
+body,html{
+    margin:0;
+    padding:0;
+}
+*{
+    box-sizing: border-box;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.main_preview_cont{
+    box-shadow: 2px 2px 12px 1px #c9e1fa;
+    margin: 2rem;
+    height: 47rem;
+}
+header {
+    background-color: #AEB6BF;
+    height:calc(100% - 85%);
+}
+main {
+    width: 100%;
+    height: calc(100% - 15%);
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.sub_section_main{
+    border-right: 1px solid black;
+    height:100%;
+    grid-column: 1/2;
+    font-size: 0.9rem;
+    padding: 0.2rem;
+}
+.super_section_main{
+    height:100%;
+    grid-column: 2/4;
+    text-wrap: wrap;
+    margin: 1rem;
+}
+.super_section_main .p {
+    font-size : 0.8rem;
+    margin-left: 0.5rem;
+}
+.super_section_main ul {
+    font-size: 0.9rem;
+}
+.sub_section_main ul {
+    margin-left: 1rem;
+}
+.sub_section_main ul li{
+    font-size: 0.8rem;
+}
+.sub_hobbies{
+    margin-top:2rem;
+}
+.acads {
+    margin-top: 1rem;
+}
+.acads ul {
+    margin-left : 1rem;
+}
+
+.head_content {
+    display: grid;
+    grid-template-columns: repeat(3,minmax(100px,1fr));
+    grid-template-rows: repeat(3,minmax(40px,1fr));
+    justify-items: center;
+}
+
+.fName{
+    grid-column: 2/3 ;
+    grid-row: 1/2;
+}
+.email {
+    grid-column: 1/4;
+    grid-row: 2/3;
+    font-size:1rem;
+    margin-right: 0.5rem;
+    justify-self: center;
+}
+.phone{
+    grid-row: 3/4;
+    margin-bottom: 0.5rem;
+    grid-column: 1/4;
+}
+.facebook{
+    grid-column: 1/2;
+}
+.linkedin {
+    grid-column: 3/4;
+}
+.download_cont{
+    display: flex;
+    justify-content: center;
+}
+.finalDownload{
+    margin: 1rem;
+}

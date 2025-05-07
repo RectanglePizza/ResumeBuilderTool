@@ -1,0 +1,16 @@
+body,html{
+    margin:0;
+    padding:0;
+}
+*{
+    box-sizing: border-box;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.heading{
+    color:#7D3C98;
+    background-color: #F2F3F4;
+    text-align: center;
+}

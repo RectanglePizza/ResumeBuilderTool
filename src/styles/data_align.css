@@ -1,0 +1,25 @@
+body,html{
+    margin:0;
+    padding:0;
+}
+*{
+    box-sizing: border-box;
+}
+*{
+    margin:0;
+    padding:0;
+}
+.edu_details{
+    display: flex;
+    flex-direction: column;
+}
+.edu_details_form{
+    display: flex;
+    flex-direction: column;
+}
+.edu_details_form input {
+    max-width: calc(100vw - 80vw);
+    margin-bottom: 0.3rem;
+    outline:none;
+    padding: 0.2rem;
+}
